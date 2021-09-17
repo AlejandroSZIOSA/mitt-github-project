@@ -1,0 +1,33 @@
+
+#Rubriken{
+    text-align: center;
+    font-size: 40px;
+}
+.MainGame{
+    text-align: center;
+}
+#StartTimer{
+    text-align: center;
+    background-color: tomato;
+}
+button.b {
+    background-color: yellow;
+    position:-ms-page;
+    font-size:large;
+}
+button.b:hover{
+background-color: aquamarine;
+transition-duration: 2s;
+color: white;
+}
+#svaret{
+    text-align: center;
+    font-size: xx-large;
+}
+#SlumpSumma{
+    text-align: center;
+    background-color: rgb(98, 255, 132);
+}
+#Summa{
+    font-size:x-large;
+}
