@@ -1,33 +1,19 @@
-
-#Rubriken{
+body {
+    height: 500px;
+    background-image: url("backgraund_1.jpg");
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size:cover;
+  }
+.HuvudMenu{
     text-align: center;
-    font-size: 40px;
-}
-.MainGame{
-    text-align: center;
-}
-#StartTimer{
-    text-align: center;
-    background-color: tomato;
-}
-button.b {
-    background-color: yellow;
-    position:-ms-page;
+    font-style: oblique;
+    background-color: rgb(202, 199, 199) ;
+    background-attachment: fixed;
+    background-position: center;
     font-size:large;
 }
-button.b:hover{
-background-color: aquamarine;
-transition-duration: 2s;
-color: white;
-}
-#svaret{
-    text-align: center;
-    font-size: xx-large;
-}
-#SlumpSumma{
-    text-align: center;
-    background-color: rgb(98, 255, 132);
-}
-#Summa{
-    font-size:x-large;
+.Seleccion{
+    font-style: normal;
 }

@@ -1,0 +1,96 @@
+h2 {
+    background-color: rgb(8, 8, 8);
+      }
+#Rubriken{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+button.Selection{
+    position:-ms-page;
+    font-size:large;
+}
+.MainGame{
+    text-align: center;
+}
+#StartTimer{
+    text-align: center;
+    background-color: tomato;
+}
+button.b {
+    background-color: rgb(255, 255, 255);
+    position:-ms-page;
+    font-size:x-large;
+}
+button.b:hover{
+background-color: aquamarine;
+transition-duration: 2s;
+color: rgb(255, 208, 107);
+}
+#svaret{
+    background-color: black;
+    text-align: center;
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#SlumpSumma{
+    text-align: center;
+    background-color: rgb(98, 255, 132);
+}
+#Summa{
+    background-color: rgb(0, 0, 0);
+    font-size:xx-large;
+    color: rgb(104, 152, 255);
+}
+#Manual{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+    text-align: center;
+    font-style: normal;
+    color: rgb(83, 138, 255);
+}
+#ImageBra {
+    position:absolute -ms-page;
+    width: 200px;
+    border-radius: 25%;
+    top: -15px;
+    border:2px solid #fff;
+    display: blocks;
+}
+#ImageFel {
+    position:absolute -ms-page;
+    width: 145px;
+    border-radius: 25%;
+    top: -15px;
+    border:2px solid #fff;
+    display: blocks;
+    
+}
+#ImageTimeOut {
+position:absolute -ms-page;
+    width: 250px;
+    border-radius: 25%;
+    top: -15px;
+    border:2px solid #fff;
+    display: blocks;
+}
+#Tips{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    text-align: center;
+    font-style: normal;
+}
+#Myfooter{
+    color: rgb(150, 150, 150);
+    text-align: center;
+    font-size:large;
+}
+#images{
+    text-align: center;
+}
+#HuvudMenu2{
+    text-align: center;
+    background-color: rgb(202, 199, 199);
+    font-size:large;
+}
