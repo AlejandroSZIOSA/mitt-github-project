@@ -4,37 +4,42 @@
      <meta charset="utf-8">
      <title>Hastighet spel</title>
 </head>
-<body style = "background-color:rgb(24, 24, 24);">
+<body style = "background-color:rgb(24, 24, 24);"> <!--Element body som har en atribut background-color-->
+
 <h1>   
-<nav id=HuvudMenu2>
+<nav id=HuvudMenuMain>
           <ul>
-                 <a href="index.html">HEM</a>  
+                 <a href="index.html">[HEM]</a>  
           </ul>
      </nav>
 </h1>  
+
 <h2 id="Rubriken" > | En Hastighet Spel |<br>[Gissa resultat innan tiden tar slut] </h2>
 <p id="Manual"> [INTRUKTIONER]  <br>
      | Tryck bara gröna knappen om du vill gissa resultat utan press <br>
      || Tryck först den gröna knappen och sen den röda, för att gissa resultat under press
-</p>
-<h3 class="MainGame" > <!-- En header som en klass -->
-<button id="SlumpSumma" class="Selection"  >| Slump Summa </button>
-<button id="StartTimer" class="Selection"   >|| Start Countdown[3 sec]  </button>
+</p> <!--Den är en pagragraf element som vissar intruktioner till användare-->
+
+<h3 class="MainGame" > <!-- En header En header som har en global atribut klass -->
+<button id="SlumpSumma" class="Selection"  >| Slump Summa </button><!-- En Botoom element som har en global atribut class -->
+<button id="StartTimer" class="Selection"   >|| Start Countdown[3 sec]  </button><!-- En Botoom element som har en global atribut class -->
 </h3>
 
 <h4 id="Summa" class="MainGame" >  </h4>
-<h5 class="MainGame"> <!-- En header som en klass -->
-<button class="b" id="resultat1"  namn="resultat1" type="button" >?</button>
-<button class="b" id="resultat2"  namn="resultat2" type="button" >?</button>
-<button class="b" id="resultat3"  namn="resultat3" type="button" >?</button>
+<h5 class="MainGame"> <!-- En header element som har en global atribut class -->
+<button class="b" id="resultat1"  namn="resultat1" type="button" >?</button><!-- En Botoom element som har en global atribut class -->
+<button class="b" id="resultat2"  namn="resultat2" type="button" >?</button><!-- En Botoom element som har en global atribut class -->
+<button class="b" id="resultat3"  namn="resultat3" type="button" >?</button><!-- En Botoom element som har en global atribut class -->
+
 </h5>
 <p id="images" >   <img src="solen.jpg" id="ImageBra"  >  <img src="moon.jpg" id="ImageFel" >  
 <img src="Time_out.jpg" id="ImageTimeOut" > 
 </p>
 <p id="svaret"  >  </p>
-<script src='Project1.js'></script>
-<link rel='stylesheet' type= 'text/css' media='screen' href='Project1.css'>
+<script src='Project1.js'></script> <!--Javascript file som ladar logiska delar av weben -->
+<link rel='stylesheet' type= 'text/css' media='screen' href='Project1.css'> <!--CSS file som ladar Utseende delar av weben -->
 <hr>
+
 <footer id="Myfooter">
      <p >| By Alejandro. G |</p>
 </footer>

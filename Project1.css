@@ -1,16 +1,19 @@
+/* alla header 2 ändrar backgrounf*/
 h2 {
     background-color: rgb(8, 8, 8);
-      }
+    }
 #Rubriken{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 35px;
     color: rgb(255, 255, 255);
 }
+/* En klass="Selection" typ bottom */
 button.Selection{
     position:-ms-page;
     font-size:large;
 }
+/* En klass="MainGame" typ bottom */
 .MainGame{
     text-align: center;
 }
@@ -18,11 +21,13 @@ button.Selection{
     text-align: center;
     background-color: tomato;
 }
+/* En klass="b" typ bottom */
 button.b {
     background-color: rgb(255, 255, 255);
     position:-ms-page;
     font-size:x-large;
 }
+/* En klass= "b" typ bottom och en atribut hover*/
 button.b:hover{
 background-color: aquamarine;
 transition-duration: 2s;
@@ -89,7 +94,7 @@ position:absolute -ms-page;
 #images{
     text-align: center;
 }
-#HuvudMenu2{
+#HuvudMenuMain{
     text-align: center;
     background-color: rgb(202, 199, 199);
     font-size:large;

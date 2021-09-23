@@ -1,6 +1,6 @@
 
 const TidLimit=100000; // 3 seconds Countdown
-const SummaRange= 30; // En variabel type const som tilldelar max range term,  [term+term]
+const SummaRange= 40; // En variabel type const som tilldelar max range term,  [term+term]
 const SlumpResultatRange= (SummaRange*2);//slump resultat max (50+50) = (50*2)
 
 var timerElement = document.getElementById("StartTimer");/*En element är tilldelad till en variabel 
@@ -34,12 +34,12 @@ SummaElement.addEventListener("click", function(){
 } );
 // Function Countdown som är en enkelt for loop och får man se resultat i Konsolen
 function CountDown(){
-		for(let i=0; i<=TidLimit; i++){
-			console.log("Time is running");
-		}
-		VissaDinResultat.style="color: tomato";
-		VissaDinResultat.innerHTML="<p> | TIME OUT | </p>";
-		ImageTimeOut.style.visibility = "visible";
+	for(let i=0; i<=TidLimit; i++){
+		console.log("Time is running");
+	}
+VissaDinResultat.style="color: tomato";
+VissaDinResultat.innerHTML="<p> | TIME OUT | </p>";
+ImageTimeOut.style.visibility = "visible";
 }
 // Skapar 3 slumpa sifror som är skickat till de 3 bottoms alternative
 function RandomResultat(){
@@ -186,5 +186,4 @@ function RestartBottoms(){
 	ImageBraGjort.style.visibility = "hidden";
 	ImageFel.style.visibility = "hidden";
 	ImageTimeOut.style.visibility = "hidden";
-	
 }
